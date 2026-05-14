@@ -107,7 +107,7 @@ export const terminalSeeds = [
 ];
 
 export const teamMembers = [
-  { name: "Aanya Sharma", role: "ML & Detection Lead" },
-  { name: "Jordan Lee", role: "Security Architecture" },
-  { name: "Marcus Chen", role: "SOC Automation" },
+  { name: "Prachi", role: "Threat detection & voice lab" },
+  { name: "Priya", role: "Security UX & analytics" },
+  { name: "Shreya", role: "AI analysis & integrations" },
 ];

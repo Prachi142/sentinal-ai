@@ -9,11 +9,13 @@ import { AboutEngine } from "./components/AboutEngine";
 import { AdminPanel } from "./components/AdminPanel";
 import { Footer } from "./components/Footer";
 import { Chatbot } from "./components/Chatbot";
+import { VoiceFraudLab } from "./components/VoiceFraudLab";
 
 const idToView: Record<string, NavView> = {
   home: "home",
   dashboard: "dashboard",
   analysis: "analysis",
+  "voice-fraud": "voice",
   alerts: "alerts",
   "about-engine": "about",
   admin: "admin",
@@ -33,6 +35,7 @@ export default function App() {
       home: "home",
       dashboard: "dashboard",
       analysis: "analysis",
+      voice: "voice-fraud",
       alerts: "alerts",
       about: "about-engine",
       admin: "admin",
@@ -48,6 +51,7 @@ export default function App() {
       "home",
       "dashboard",
       "analysis",
+      "voice-fraud",
       "alerts",
       "about-engine",
       "admin",
@@ -80,6 +84,7 @@ export default function App() {
       <Features />
       <Dashboard />
       <AIAnalysis />
+      <VoiceFraudLab />
       <AlertsPage />
       <AboutEngine />
       <AdminPanel />

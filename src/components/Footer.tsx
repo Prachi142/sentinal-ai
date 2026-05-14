@@ -38,13 +38,13 @@ export function Footer() {
               Repository
             </p>
             <a
-              href="https://github.com/"
+              href="https://github.com/Prachi142/sentinal-ai"
               target="_blank"
               rel="noreferrer"
               className="mt-3 inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm text-white transition hover:border-cyan-500/40 hover:bg-white/10"
             >
               <Github className="h-4 w-4" />
-              github.com/your-org/sentinel-ai
+              github.com/Prachi142/sentinal-ai
             </a>
           </div>
           <div>
@@ -71,7 +71,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-center text-xs text-slate-500 sm:flex-row sm:text-left">
-          <p>© {new Date().getFullYear()} Sentinel AI Hackathon Demo. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Sentinel AI — Prachi, Priya, Shreya. Hackathon demo.</p>
           <p>UI-only prototype — no production telemetry is collected.</p>
         </div>
       </div>

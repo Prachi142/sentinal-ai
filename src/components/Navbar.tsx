@@ -6,6 +6,7 @@ export type NavView =
   | "home"
   | "dashboard"
   | "analysis"
+  | "voice"
   | "alerts"
   | "about"
   | "admin"
@@ -15,6 +16,7 @@ const links: { label: string; view: NavView }[] = [
   { label: "Home", view: "home" },
   { label: "Dashboard", view: "dashboard" },
   { label: "AI Analysis", view: "analysis" },
+  { label: "Voice", view: "voice" },
   { label: "Alerts", view: "alerts" },
   { label: "AI Engine", view: "about" },
   { label: "Admin", view: "admin" },
