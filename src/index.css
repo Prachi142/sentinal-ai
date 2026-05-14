@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  ::selection {
+    @apply bg-cyan-500/30 text-white;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply border border-white/10 bg-slate-900/40 backdrop-blur-xl;
+  }
+  .glass-strong {
+    @apply border border-cyan-500/20 bg-slate-950/70 backdrop-blur-2xl;
+  }
+  .text-glow {
+    text-shadow: 0 0 24px rgba(56, 189, 248, 0.45);
+  }
+  .neon-border {
+    box-shadow:
+      0 0 0 1px rgba(56, 189, 248, 0.2),
+      0 0 40px rgba(56, 189, 248, 0.12);
+  }
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(56, 189, 248, 0.4) transparent;
+}
