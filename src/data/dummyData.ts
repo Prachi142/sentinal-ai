@@ -110,4 +110,5 @@ export const teamMembers = [
   { name: "Prachi", role: "Threat detection & voice lab" },
   { name: "Priya", role: "Security UX & analytics" },
   { name: "Shreya", role: "AI analysis & integrations" },
+  { name: "Nigam", role: "Backend & ML pipeline" },
 ];
