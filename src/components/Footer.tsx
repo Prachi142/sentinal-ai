@@ -8,10 +8,6 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <p className="text-lg font-bold text-white">Sentinel AI</p>
-            <p className="mt-2 text-sm text-slate-400">
-              Prototype SOC experience blending AI detection, rich telemetry, and analyst
-              workflows for your hackathon storyboard.
-            </p>
             <a
               href="mailto:support@sentinel-ai.demo"
               className="mt-4 inline-flex items-center gap-2 text-sm text-cyan-300 hover:text-cyan-200"
@@ -71,8 +67,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-center text-xs text-slate-500 sm:flex-row sm:text-left">
-          <p>© {new Date().getFullYear()} Sentinel AI — Prachi, Priya, Shreya. Hackathon demo.</p>
-          <p>UI-only prototype — no production telemetry is collected.</p>
+          <p>© {new Date().getFullYear()} Sentinel AI — Prachi, Priya, Shreya & Nigam.</p>
         </div>
       </div>
     </footer>
