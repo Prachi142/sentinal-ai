@@ -20,7 +20,7 @@ export function VoiceAlertBar() {
         <div>
           <p className="text-sm font-semibold text-white">Voice alert channel</p>
           <p className="text-xs text-slate-400">
-            Hands-free SOC playback for critical incidents (UI prototype)
+            Hands-free SOC playback for critical incidents 
           </p>
         </div>
       </div>
